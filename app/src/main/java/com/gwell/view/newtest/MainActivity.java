@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onCurrentSsid(String ssid) {
-                tx_wifiName.append(ssid);
+                tx_wifiName.setText("SSID:"+ssid);
             }
 
         });

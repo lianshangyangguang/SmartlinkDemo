@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="SSID:"
+        android:hint="SSID:暂不支持5G网络"
         android:textColor="@color/text_color_black"
         android:textSize="18sp" />
 

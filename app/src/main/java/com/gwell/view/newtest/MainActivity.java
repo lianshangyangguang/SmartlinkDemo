@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onCurrentSsid(String ssid) {
-                tx_wifiName.setText("SSID:"+ssid);
+                tx_wifiName.setText("SSID:(暂不支持5G网络)\n\n"+ssid);
             }
 
         });
